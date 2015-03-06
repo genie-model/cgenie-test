@@ -1,0 +1,4 @@
+base_config: /home/iross/cgenie-data/base-configs/cgenie.eb_go_gs_ac_bg.p0650e.NONE.config
+user_config: /home/iross/cgenie-data/user-configs/LABS/LAB_0.snowball
+run_length: 10
+t100: False

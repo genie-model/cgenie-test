@@ -1,0 +1,4 @@
+base_config: /home/iross/cgenie-data/base-configs/cgenie.eb_go_gs_ac_bg.worjh2.rb.config
+user_config: /home/iross/cgenie-data/user-configs/LABS/LAB_1.colorinjection-experiment
+run_length: 20
+t100: False

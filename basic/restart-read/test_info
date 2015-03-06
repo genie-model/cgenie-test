@@ -1,0 +1,4 @@
+full_config: /home/iross/cgenie-data/full-configs/eb_go_gs_restartread_test.config
+run_length: 0
+t100: False
+restart_from: basic/make-restart
