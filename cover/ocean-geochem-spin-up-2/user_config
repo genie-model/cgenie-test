@@ -44,7 +44,7 @@ sg_par_n_sedcore_tot_perky=20
 # --- WEATHERING ------------------------------------------------------
 #
 # assuming: 6 Tmol C yr-1 CO2 emissions balanced by silicate weathering of 6 Tmol Ca yr-1, i.e. 12 Tmol yr-1 total CO2 consumed from silicate weathering
-#           9 Tmol yr-1 CO2 consumed from carbonate weathering, i.e. 9 Tmol Ca yr-1 
+#           9 Tmol yr-1 CO2 consumed from carbonate weathering, i.e. 9 Tmol Ca yr-1
 #           2.0 Tmol Ca yr-1 hydrothermal input, replacing (and removing) the 1/12 of silicate weathering that is assumed to be Mg rather than Ca
 # set a 'CLOSED' system
 bg_ctrl_force_sed_closedsystem=.false.
@@ -86,8 +86,6 @@ ma_gem_adapt_auto=.false.
 # date saving & reporting options
 bg_par_data_save_level=4
 bg_ctrl_debug_lvl0=.true.
-# turn off run-time ...
-ma_debug_loop=0
 #
 # --- FORCINGS --------------------------------------------------------
 #
@@ -170,6 +168,18 @@ bg_par_bio_red_CaCO3_LiCO3=0.0E-6
 sg_par_bio_red_CaCO3_LiCO3_alpha=0.005
 sg_par_d7Li_LiCO3_epsilon=-2.0
 #
+# **************************************************************
+# DEBUG OUTPUT
+bg_ctrl_audit=.TRUE.
+ma_debug_loop=2
+ma_debug_end=2
+go_debug_loop=.TRUE.
+go_debug_end=.TRUE.
+bg_ctrl_data_save_derived=.TRUE.
+bg_ctrl_data_save_slice_fairsea=.TRUE.
+bg_ctrl_data_save_3d_sig=.TRUE.
+rg_opt_2d_netcdf_output=.TRUE.
+sg_ctrl_data_save_ascii=.TRUE.
 # **************************************************************
 #
 # --- END ------------------------------------------------------
