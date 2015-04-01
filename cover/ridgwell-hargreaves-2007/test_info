@@ -1,0 +1,4 @@
+base_config: /home/iross/cgenie-data/base-configs/cgenie.eb_go_gs_ac_bg_sg_rg.worbe2.BASE.config
+user_config: /home/iross/cgenie-data/user-configs/EXAMPLE.worbe2.RidgwellHargreaves1997_S36x36.SPIN1
+run_length: 100
+t100: False

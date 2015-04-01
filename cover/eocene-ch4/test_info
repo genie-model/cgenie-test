@@ -1,0 +1,4 @@
+base_config: /home/iross/cgenie-data/base-configs/cgenie.eb_go_gs_ac_bg.p0055c.BASESCH4.config
+user_config: /home/iross/cgenie-data/user-configs/EXAMPLE.p0055c.PO4CH4.SPIN
+run_length: 100
+t100: False
