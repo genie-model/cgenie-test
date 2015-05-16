@@ -39,54 +39,54 @@ ma_dt_write=50000
 #   iwstp='restarts' from 50000=500 years to 10000=100 years
 #   itstp='time series' from 100=1 year to 5000=50 years
 #   ianav='an average' stays 50000=500 years
-ea_3=1000
-ea_4=1000
-ea_5=10
-ea_6=1000
-ea_7='c'
-ea_8=360
-ea_9=100
-ea_30='y'
-ea_31='y'
-ea_32='n'
-ea_35='spn.1'
-ea_33='restart/embm/embm_restart_2009_12_30.nc'
+ea_npstp=1000
+ea_iwstp=1000
+ea_itstp=10
+ea_ianav=1000
+ea_ans='c'
+ea_yearlen=360
+ea_nyear=100
+ea_netin='y'
+ea_netout='y'
+ea_ascout='n'
+ea_lin='spn.1'
+ea_filenetin='restart/embm/embm_restart_2009_12_30.nc'
 
 # this is to control goldstein output periods
 #   npstp='health check' from 1000=10 years to 50000=500 years
 #   iwstp='restarts' from 50000=500 years to 10000=100 years
 #   itstp='time series' from 100=1 year to 5000=50 years
 #   ianav='an average' stays 50000=500 years
-go_3=1000
-go_4=1000
-go_5=10
-go_6=1000
-go_7='c'
-go_8=360
-go_9=100
-go_18='y'
-go_19='y'
-go_20='n'
-go_21='restart/goldstein/goldstein_restart_2009_12_30.nc'
-go_23='spn.1'
+go_npstp=1000
+go_iwstp=1000
+go_itstp=10
+go_ianav=1000
+go_ans='c'
+go_yearlen=360
+go_nyear=100
+go_netin='y'
+go_netout='y'
+go_ascout='n'
+go_filenetin='restart/goldstein/goldstein_restart_2009_12_30.nc'
+go_lin='spn.1'
 
 # this is to control seaice output periods
 #   npstp='health check' from 1000=10 years to 50000=500 years
 #   iwstp='restarts' from 50000=500 years to 10000=100 years
 #   itstp='time series' from 100=1 year to 5000=50 years
 #   ianav='an average' stays 50000=500 years
-gs_3=1000
-gs_4=1000
-gs_5=10
-gs_6=1000
-gs_7='c'
-gs_8=360
-gs_9=100
-gs_13='y'
-gs_14='y'
-gs_15='n'
-gs_16='restart/goldsteinseaice/goldsic_restart_2009_12_30.nc'
-gs_18='spn.1'
+gs_npstp=1000
+gs_iwstp=1000
+gs_itstp=10
+gs_ianav=1000
+gs_ans='c'
+gs_yearlen=360
+gs_nyear=100
+gs_netin='y'
+gs_netout='y'
+gs_ascout='n'
+gs_filenetin='restart/goldsteinseaice/goldsic_restart_2009_12_30.nc'
+gs_lin='spn.1'
 
 # this is to turn graphics off
 ma_lgraphics=.false.
@@ -99,7 +99,7 @@ ma_koverall_total=5000
 ma_ksic_loop=5
 ma_kocn_loop=5
 
-ea_22=0.0
-go_10=10.
-go_11=10.
-go_15=1.e-4
+ea_tatm=0.0
+go_temp0=10.
+go_temp1=10.
+go_diff_2=1.e-4

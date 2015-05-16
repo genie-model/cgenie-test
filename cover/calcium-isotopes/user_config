@@ -8,7 +8,7 @@
 #       for a ca. 635 Ma time-interval (Marinoan onset), S0 will be 1295.4
 ma_genie_solar_constant=1295.4
 # set climate feedback
-ea_36=y
+ea_atchem_radfor=y
 #
 # --- BIOLOGICAL NEW PRODUCTION ---------------------------------------
 #

@@ -27,9 +27,9 @@ GOLDSTEINNLONSOPTS='$(DEFINE)GOLDSTEINNLONS=36'
 GOLDSTEINNLATSOPTS='$(DEFINE)GOLDSTEINNLATS=36'
 GOLDSTEINNLEVSOPTS='$(DEFINE)GOLDSTEINNLEVS=16'
 # Topography for climate components
-ea_topo=worjh2
-go_topo=worjh2
-gs_topo=worjh2
+ea_world=worjh2
+go_world=worjh2
+gs_world=worjh2
 # Wind forcing for climate components
 #assumed longitudinal offset of the grid
 # *******************************************************************
@@ -98,37 +98,37 @@ bg_ocn_init_50=5.282E-02
 # PHYSICAL CLIMATE CONFIGURATION #1: main goin parameters
 # *******************************************************************
 # temp0
-go_10=0.0
+go_temp0=0.0
 # temp1
-go_11=0.0
+go_temp1=0.0
 # rel
-go_12=0.9000000
+go_rel=0.9000000
 # scl_tau / SclTau
-go_13=1.531013488769531300
+go_scf=1.531013488769531300
 # ocean diffusivites iso (or horiz) / OcnHorizDiff
-go_14=1494.438354492187500000
+go_diff_1=1494.438354492187500000
 # ocean diffusivites dia (or vert) / OcnVertDiff
-go_15=0.000025363247914356
+go_diff_2=0.000025363247914356
 # inverse minimum drag in days / InvDrag
-go_16=2.710164785385131800
+go_adrag=2.710164785385131800
 # scl_tau (should be same as GOLDSTEIN's value) / SclTau
-ea_11=1.531013488769531300
+ea_scf=1.531013488769531300
 # atm. diff. amp. for T / AtmDiffAmpT
-ea_12=5204945.000000000000000000
+ea_diffamp_1=5204945.000000000000000000
 # atm. diff. amp. for q / AtmDiffAmpQ
-ea_13=1173269.250000000000000000
+ea_diffamp_2=1173269.250000000000000000
 # dist'n width / AtmDiffWidthT
-ea_14=1.410347938537597700
+ea_diffwid=1.410347938537597700
 # dist'n slope / AtmDiffSlopeT
-ea_15=0.090003050863742828
+ea_difflin=0.090003050863742828
 # atm. advection factor for T_z / AtmAdvectCoeffTm
-ea_16=0.001037851092405617
+ea_betaz_1=0.001037851092405617
 # atm. advection factor for T_m / AtmAdvectCoeffQm
-ea_17=0.0000000E+00
+ea_betam_1=0.0000000E+00
 # atm. advection factor for q_z / AtmAdvectCoeffQz
-ea_18=0.164652019739151000
+ea_betaz_2=0.164652019739151000
 # atm. advection factor for q_m / AtmAdvectCoeffQz
-ea_19=0.164652019739151000
+ea_betam_2=0.164652019739151000
 ## extra1a
 #ea_25=-2.1228021E-02
 ## extra1b
@@ -136,9 +136,9 @@ ea_19=0.164652019739151000
 ## extra1c
 #ea_27=0.1273681
 # SclFWF
-ea_28=0.726862013339996340
+ea_scl_fwf=0.726862013339996340
 # sea-ice eddy diffusivity / SeaiceDiff
-gs_11=3573.718017578125000000
+gs_diffsic=3573.718017578125000000
 #diffusivity scaling factor
 ea_diffa_scl=0.25
 #grid point distance over which scalar is applied (j direction)

@@ -27,16 +27,16 @@ GOLDSTEINNLONSOPTS='$(DEFINE)GOLDSTEINNLONS=18'
 GOLDSTEINNLATSOPTS='$(DEFINE)GOLDSTEINNLATS=18'
 GOLDSTEINNLEVSOPTS='$(DEFINE)GOLDSTEINNLEVS=8'
 # Topography for climate components
-ea_topo='p0650e'
-go_topo='p0650e'
-gs_topo='p0650e'
+ea_world='p0650e'
+go_world='p0650e'
+gs_world='p0650e'
 # Wind forcing for climate components
-ea_taux_u="p0650e.taux_u.interp"
-ea_tauy_u="p0650e.tauy_u.interp"
-ea_taux_v="p0650e.taux_v.interp"
-ea_tauy_v="p0650e.tauy_v.interp"
-ea_adv_u="p0650e.u.silo"
-ea_adv_v="p0650e.v.silo"
+ea_xu_wstress="p0650e.taux_u.interp"
+ea_yu_wstress="p0650e.tauy_u.interp"
+ea_xv_wstress="p0650e.taux_v.interp"
+ea_yv_wstress="p0650e.tauy_v.interp"
+ea_u_wspeed="p0650e.u.silo"
+ea_v_wspeed="p0650e.v.silo"
 #assumed longitudinal offset of the grid
 gm_par_grid_lon_offset=-180.0
 # *******************************************************************
@@ -53,45 +53,45 @@ GOLDSTEINNTRACSOPTS='$(DEFINE)GOLDSTEINNTRACS=2'
 # *******************************************************************
 # this is to set the climate model goin parameters as per Ridgwell et al. [2007]
 # temp0
-go_10=0.0
+go_temp0=0.0
 # temp1
-go_11=0.0
+go_temp1=0.0
 # rel
-go_12=0.9000000
+go_rel=0.9000000
 # scl_tau
-go_13=1.931692
+go_scf=1.931692
 # ocean diffusivites iso (or horiz)
-go_14=4488.812
+go_diff_1=4488.812
 # ocean diffusivites dia (or vert)
-go_15=2.7242320E-05
+go_diff_2=2.7242320E-05
 # inverse minimum drag in days
-go_16=2.939598
+go_adrag=2.939598
 # scl_tau (should be same as GOLDSTEIN's value)
-ea_11=1.931692
+ea_scf=1.931692
 # atm. diff. amp. for T
-ea_12=4667550.0
+ea_diffamp_1=4667550.0
 # atm. diff. amp. for q
-ea_13=1097107.0
+ea_diffamp_2=1097107.0
 # dist'n width
-ea_14=1.083292
+ea_diffwid=1.083292
 # dist'n slope
-ea_15=6.3252553E-02
+ea_difflin=6.3252553E-02
 # atm. advection factor for T_z
-ea_16=0.1121861
+ea_betaz_1=0.1121861
 # atm. advection factor for T_m
-ea_17=0.0000000E+00
+ea_betam_1=0.0000000E+00
 # atm. advection factor for q_z
-ea_18=0.2269510
+ea_betaz_2=0.2269510
 # atm. advection factor for q_m
-ea_19=0.2269510
+ea_betam_2=0.2269510
 # extra1a
-ea_25=0.0 
+ea_extra1a=0.0 
 # extra1b
-ea_26=0.0      
+ea_extra1b=0.0      
 # extra1c
-ea_27=0.0
+ea_extra1c=0.0
 # sea-ice eddy diffusivity
-gs_11=1000.000
+gs_diffsic=1000.000
 # fractional sea-ce coverage threshold for preventing advection
 gs_par_sica_thresh=0.9
 # solar constant reduced by 5.6% for late Neoproterozoic: 1285.92 W m-2
@@ -104,7 +104,7 @@ ea_dosc=.false.
 go_dosc=.false.
 gs_dosc=.false.
 # set NO CO2-climate feedback
-ea_36=n
+ea_atchem_radfor=n
 # *******************************************************************
 
 # *******************************************************************

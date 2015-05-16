@@ -3,7 +3,7 @@
 # --- CLIMATE ---------------------------------------------------------
 #
 # set climate feedback
-ea_36=y
+ea_atchem_radfor=y
 #
 # --- BIOLOGICAL NEW PRODUCTION ---------------------------------------
 #

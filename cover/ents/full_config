@@ -51,34 +51,34 @@ ma_kocn_loop=5
 ma_klnd_loop=5
 
 # GOLDSTEIN
-go_3=1000          # go_npstp
-go_4=1000          # go_iwstp
-go_5=10            # go_itstp
-go_6=1000          # go_ianav
-go_10=20.          # go_temp0
-go_11=20.          # go_temp1
-go_15=1.e-4        # go_diff(2)
+go_npstp=1000          # go_npstp
+go_iwstp=1000          # go_iwstp
+go_itstp=10            # go_itstp
+go_ianav=1000          # go_ianav
+go_temp0=20.          # go_temp0
+go_temp1=20.          # go_temp1
+go_diff_2=1.e-4        # go_diff(2)
 
 # GOLDSTEIN sea-ice
-gs_3=1000          # npstp
-gs_4=1000          # iwstp
-gs_5=10            # itstp
-gs_6=1000          # ianav
+gs_npstp=1000          # npstp
+gs_iwstp=1000          # iwstp
+gs_itstp=10            # itstp
+gs_ianav=1000          # ianav
 
 # EMBM
-ea_3=1000         # ea_npstp
-ea_4=1000         # ea_iwstp
-ea_5=10           # ea_itstp
-ea_6=1000         # ea_ianav
-ea_22=20.0        # ea_tatm
-ea_12=3.8e6       # ea_diffamp(1)
-ea_38='y'         # ea_orbit_radfor
+ea_npstp=1000         # ea_npstp
+ea_iwstp=1000         # ea_iwstp
+ea_itstp=10           # ea_itstp
+ea_ianav=1000         # ea_ianav
+ea_tatm=20.0        # ea_tatm
+ea_diffamp_1=3.8e6       # ea_diffamp(1)
+ea_orbit_radfor='y'         # ea_orbit_radfor
 ea_orogswitch=1
 ea_entsoffline_switch=0
 
 # ENTS
-ents_3=100        # ents_npstp
-ents_4=100        # ents_iwstp
-ents_5=100        # ents_itstp
-ents_6=100        # ents_ianav
-ents_17='ents'
+ents_npstp=100        # ents_npstp
+ents_iwstp=100        # ents_iwstp
+ents_itstp=100        # ents_itstp
+ents_ianav=100        # ents_ianav
+ents_out_name='ents'

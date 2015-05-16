@@ -148,48 +148,48 @@ ma_kocn_loop=5
 # *******************************************************************
 # this is to set the climate model goin parameters as per Ridgwell et al. [2006a] (I hope ...)
 # temp0
-go_10=0.0
+go_temp0=0.0
 # temp1
-go_11=0.0
+go_temp1=0.0
 # rel
-go_12=0.9000000
+go_rel=0.9000000
 # scl_tau
-go_13=1.931692
+go_scf=1.931692
 # ocean diffusivites iso (or horiz)
-go_14=4488.812
+go_diff_1=4488.812
 # ocean diffusivites dia (or vert)
-go_15=2.7242320E-05
+go_diff_2=2.7242320E-05
 # inverse minimum drag in days
-go_16=2.939598
+go_adrag=2.939598
 # scl_tau (should be same as GOLDSTEIN's value)
-ea_11=1.931692
+ea_scf=1.931692
 # atm. diff. amp. for T
-ea_12=4667550.0
+ea_diffamp_1=4667550.0
 # atm. diff. amp. for q
-ea_13=1097107.0
+ea_diffamp_2=1097107.0
 # dist'n width
-ea_14=1.083292
+ea_diffwid=1.083292
 # dist'n slope
-ea_15=6.3252553E-02
+ea_difflin=6.3252553E-02
 # atm. advection factor for T_z
-ea_16=0.1121861
+ea_betaz_1=0.1121861
 # atm. advection factor for T_m
-ea_17=0.0000000E+00
+ea_betam_1=0.0000000E+00
 # atm. advection factor for q_z
-ea_18=0.2269510
+ea_betaz_2=0.2269510
 # atm. advection factor for q_m
-ea_19=0.2269510
+ea_betam_2=0.2269510
 # extra1a
-ea_25=-2.1228021E-02
+ea_extra1a=-2.1228021E-02
 # extra1b
-ea_26=0.1202921
+ea_extra1b=0.1202921
 # extra1c
-ea_27=0.1273681
+ea_extra1c=0.1273681
 # sea-ice eddy diffusivity
-gs_11=6200.000
+gs_diffsic=6200.000
 # set whether carbon-climate system is interactive (i.e., whether the EMBM 'see's ATCHEM trace gas concentrations)
 # (set to 'y' to enable carbon-climate feedbacks)
-ea_36=n
+ea_atchem_radfor=n
 
 # *******************************************************************
 # BIOGEM CONFIGURATION: goin parameters
@@ -220,33 +220,33 @@ bg_par_misc_t_start=0
 bg_par_misc_t_runtime=5
 ma_koverall_total=2500
 ma_dt_write=2500
-ea_4=500
-go_4=500
-gs_4=500
-ea_3=501
-go_3=501
-gs_3=501
-ea_5=501
-go_5=501
-gs_5=501
-ea_6=501
-go_6=501
-gs_6=501
-ea_31=n
-go_19=n
-gs_14=n
-ea_32=y
-go_20=y
-gs_15=y
-ea_29=rst
-go_17=rst
-gs_12=rst
-ea_7=n
-go_7=n
-gs_7=n
+ea_iwstp=500
+go_iwstp=500
+gs_iwstp=500
+ea_npstp=501
+go_npstp=501
+gs_npstp=501
+ea_itstp=501
+go_itstp=501
+gs_itstp=501
+ea_ianav=501
+go_ianav=501
+gs_ianav=501
+ea_netout=n
+go_netout=n
+gs_netout=n
+ea_ascout=y
+go_ascout=y
+gs_ascout=y
+ea_lout=rst
+go_lout=rst
+gs_lout=rst
+ea_ans=n
+go_ans=n
+gs_ans=n
 ac_ctrl_continuing=.false.
 bg_ctrl_continuing=.false.
-ea_36=y
+ea_atchem_radfor=y
 bg_par_infile_slice_name="genie_eb_go_gs_ac_bg_test_save_timeslice.dat"
 bg_par_infile_sig_name="genie_eb_go_gs_ac_bg_test_save_sig.dat"
 bg_par_windspeed_file="genie_eb_go_gs_ac_bg_test_windspeed.dat"
