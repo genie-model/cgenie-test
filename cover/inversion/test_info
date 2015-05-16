@@ -1,5 +1,8 @@
-base_config: /home/iross/cgenie-data/base-configs/cgenie.eb_go_gs_ac_bg.worjh2.BASE.config
-user_config: /home/iross/cgenie-data/user-configs/EXAMPLE.worjh2.PO4.INVERSION-RESERVOIR
+base_config_dir: /home/iross/cgenie-data/base-configs
+base_config: cgenie.eb_go_gs_ac_bg.worjh2.BASE
+user_config_dir: /home/iross/cgenie-data/user-configs
+user_config: EXAMPLE.worjh2.PO4.INVERSION-RESERVOIR
 run_length: 10
 t100: False
 restart_from: cover/cao-et-al-2009
+config_date: 2015-05-16 15:44:44.906443

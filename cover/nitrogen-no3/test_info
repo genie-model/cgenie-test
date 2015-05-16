@@ -1,4 +1,7 @@
-base_config: /home/iross/cgenie-data/base-configs/cgenie.eb_go_gs_ac_bg.worjh2.BASESFeN.config
-user_config: /home/iross/cgenie-data/user-configs/EXAMPLE.worjh2.PO4FeN.SPIN
+base_config_dir: /home/iross/cgenie-data/base-configs
+base_config: cgenie.eb_go_gs_ac_bg.worjh2.BASESFeN
+user_config_dir: /home/iross/cgenie-data/user-configs
+user_config: EXAMPLE.worjh2.PO4FeN.SPIN
 run_length: 100
 t100: False
+config_date: 2015-05-16 15:44:45.132416

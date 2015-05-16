@@ -1,4 +1,6 @@
-full_config: /home/iross/cgenie-data/full-configs/eb_go_gs_restartread_test.config
+full_config_dir: /home/iross/cgenie-data/full-configs
+full_config: eb_go_gs_restartread_test
 run_length: 0
 t100: False
 restart_from: cover/make-restart
+config_date: 2015-05-16 15:44:44.974349

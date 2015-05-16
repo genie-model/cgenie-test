@@ -1,4 +1,7 @@
-base_config: /home/iross/cgenie-data/base-configs/cgenie.eb_go_gs_ac_bg_sg_rg.worbe2.BASE.config
-user_config: /home/iross/cgenie-data/user-configs/EXAMPLE.worbe2.RidgwellHargreaves1997_S36x36.SPINgl
+base_config_dir: /home/iross/cgenie-data/base-configs
+base_config: cgenie.eb_go_gs_ac_bg_sg_rg.worbe2.BASE
+user_config_dir: /home/iross/cgenie-data/user-configs
+user_config: EXAMPLE.worbe2.RidgwellHargreaves1997_S36x36.SPINgl
 run_length: 100
 t100: False
+config_date: 2015-05-16 15:44:45.069174
