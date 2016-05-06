@@ -1,0 +1,5 @@
+full_config_dir: /home/mushroom/cgenie-data/full-configs
+full_config: muffin-test-ebgogs
+config_date: 2016-05-05 14:51:57.759365
+run_length: 20
+t100: True

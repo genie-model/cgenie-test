@@ -1,0 +1,5 @@
+full_config_dir: /home/mushroom/cgenie-data/full-configs
+full_config: muffin-test-biogem
+config_date: 2016-05-05 14:17:47.590670
+run_length: 5
+t100: True
