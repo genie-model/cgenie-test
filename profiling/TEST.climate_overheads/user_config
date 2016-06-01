@@ -10,6 +10,12 @@ ea_atchem_radfor=y
 # No biology
 bg_par_bio_prodopt='NONE'
 #
+# --- DATA SAVING -----------------------------------------------------
+#
+# data saving & reporting options
+bg_par_infile_sig_name="save_timeseries_NONE.dat"
+bg_par_infile_slice_name="save_timeslice_NONE.dat"
+#
 # --- END -------------------------------------------------------------
 #
 #
