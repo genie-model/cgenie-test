@@ -1,0 +1,1 @@
+%   time_kyr  age_kyrBP     D_m  k0_mix     T_C   S_mil    CO2_uM    ALK_uM    PO2_uM    NO3_uM     O2_uM     Ca_uM    SO4_mM      d13C  pH_SWS    CO3_mM     ohm   dCO3_uM     POC_%     cal_%      d13C    opal_%     det_%   fsedPOC      d13C   fsedcal      d13C  fsedopal   fseddet   fdisPOC      d13C   fdiscal      d13C  fdisopal   fdisdet

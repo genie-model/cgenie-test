@@ -1,0 +1,7 @@
+base_config_dir: /home/mushroom/cgenie-data/base-configs
+base_config: cgenie.eb_go_gs_ac_bg.worjh2.ANTH
+user_config_dir: /home/mushroom/cgenie-data/user-configs
+user_config: EXAMPLE.worjh2.Caoetal2009.SPIN
+config_date: 2016-05-31 15:44:33.848819
+run_length: 10
+t100: True
