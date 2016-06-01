@@ -1,0 +1,30 @@
+
+These tests are only for basic profiling purposes and they are not 'real' tests. Well, tests can eb whatever you like I guess ...
+(Just to say: they could probably be removed in the future.)
+
+16/05/31
+
+There are 5 basic tests:
+
+TEST.climate		-- modelled on EXAMPLE.worjh2.Caoetal2009.SPIN but with all tracers (except T and S) removed, no BIOGEM or ATCHEM modules
+TEST.climate_overheads	-- modelled on EXAMPLE.worjh2.Caoetal2009.SPIN but with all tracers (except T and S) removed
+TEST.tracers		-- modelled on EXAMPLE.worjh2.Caoetal2009.SPIN, no BIOGEM or ATCHEM modules
+TEST.tracers_overheads	-- modelled on EXAMPLE.worjh2.Caoetal2009.SPIN
+TEST.sediments		-- modelled on EXAMPLE.worjh2.Archeretal2009.SPIN1, but with the larger number of tracers in EXAMPLE.worjh2.Caoetal2009.SPIN
+
+In TEST.climate_overheads, TEST.tracers_overheads, and TEST.sediments, which all include BIOGEM, data-saving has been minimized, and only a single time-slice save occurs at the run end.
+The number of tracers in 'tracers' (and 'sediments') is 16 total (including T and S). 'climate' has just 2 (T and S).
+
+All are run for 10 years with --t100 time-stepping (and no re-start).
+
+On a Ubuntu VM on some quasi-random hardware, cupcake-0.3.1, the test performance (wall time) is:
+
+TEST.climate		-- 00h 00m 07s
+TEST.climate_overheads	-- 00h 00m 32s
+TEST.tracers		-- 00h 00m 18s
+TEST.tracers_overheads	-- 00h 01m 08s
+TEST.sediments		-- 00h 01m 19s
+
+Here: the addition of 'overheads' adds BIOGEM (but with limited data saving).
+Note that 'sediments' in effect includes 'overheads'.
+
